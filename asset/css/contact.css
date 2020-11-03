@@ -1,0 +1,27 @@
+.contact_container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container .contact_container .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container .contact_container .content .contact-box{
+    width: 40%;
+}
+.container .contact_container .content .map-box{
+    width: 40%;
+}
+@media all and (max-width: 968px){
+    .container .contact_container .content{
+        flex-direction: column;
+    }
+    .container .contact_container .content .map-box{
+        width: 90%;
+    }
+    .container .contact_container .content .contact-box{
+        width: 90%;
+    }
+}
