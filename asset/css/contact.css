@@ -38,3 +38,11 @@ body{
     margin-top: 30px;
     margin-bottom: 20px;
 }
+.contact_container .content .contact-box p a{
+    text-decoration: none;
+    color: red;
+}
+.contact_container .content .contact-box p:hover a{
+    color: royalblue;
+    transition: 0.5s;
+}
