@@ -6,6 +6,28 @@
   box-sizing: border-box;
   font-family:  'Segoe UI', Tahoma, Verdana, sans-serif;
 }
+body .languge {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+body .languge .vn{
+  margin-right: 10px;
+}
+body .languge .en{
+  margin-left: 10px;
+}
+body .languge .vn a, .en a{
+  color: #f2f2f2;
+  text-decoration: none;
+} 
+body .languge .vn:hover a, .en:hover a {
+  color: yellowgreen;
+  transition: 0.5s;
+}
 body{
   background: #f2f2f2;
 }
@@ -135,6 +157,7 @@ nav ul ul ul li{
     line-height: 70px;
     cursor: pointer;
     font-size: 25px;
+    margin-top: 40px;
   }
   nav ul ul{
     top: 70px;
